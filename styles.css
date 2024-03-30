@@ -1,1 +1,92 @@
 
+body {
+    font-family: sans-serif;
+}
+header{
+    background-image: url("https://img.tsn.ua/cached/825/tsn-8d1621a47e57f8d275b9b822fb9c4f13/thumbs/428x268/31/47/0f0a3006a6b942597e2aa6d254014731.jpg");
+    height: 150px;
+    width:100%;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color:#ffadad;
+    background-color:#901e1e9a;
+    border-radius:50px;
+    width: fit-content;
+    font-size: 30px;
+    padding: 5px;
+}
+nav{
+   display:flex;
+   justify-content: space-around;
+   background-color: #ff0000b7;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+section{
+    display:flex;
+    justify-content: space-around;
+}
+.spesie{
+    background-color:#ffd298c5 ;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 5px;
+    font-size: 10px;
+    width: 20%;
+    height: 250px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.spesie:hover{
+    height: fit-content;
+}
+.precrasu{
+    background-color:#ffd298c5 ;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 5px;
+    font-size: 10px;
+    width: 20%;
+    height: 250px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.precrasu:hover{
+    height: fit-content;
+    }
+.posupca{
+    background-color:#ffd298c5 ;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 5px;
+    font-size: 10px;
+    width: 20%;
+    height: 250px;
+    transition: 0.3s;
+    overflow: hidden;
+    }
+.posupca:hover{
+    height: fit-content;
+    }
+.pasxa{
+    background-color:#ffd298c5 ;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 5px;
+    font-size: 10px;
+    width: 20%;
+    height: 250px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.pasxa:hover{
+    height: fit-content;
+}
