@@ -90,3 +90,33 @@ section{
 .pasxa:hover{
     height: fit-content;
 }
+footer{
+    background-color: #C64646;
+    padding: 15px;
+}
+.footer_h2{
+    font-size: 18px;
+    color:#ffffff;
+}
+ul{
+    font-size:14px;
+}
+.footer_article{
+    border:2px solid #ffffff;
+    height: 120px ;
+    width: 200px;
+    padding: 7px;
+}
+.footer_p{
+    font-size: 14px;
+}
+.footer2_article{
+    border:2px solid #ffffff;
+    height: 80px ;
+    width: 200px;
+    padding: 7px;
+}
+.footer_section{
+    display:flex;
+    justify-content: space-around;
+}
