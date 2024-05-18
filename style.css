@@ -10,7 +10,7 @@ h1{
     text-align: center;
     margin: auto;
     color:#ffadad;
-    background-color:#901e1e9a;
+    background-color:#730000a9;
     border-radius:50px;
     width: fit-content;
     font-size: 30px;
@@ -19,7 +19,7 @@ h1{
 nav{
    display:flex;
    justify-content: space-around;
-   background-color: #ff0000b7;
+   background-color: #DD7373;
    padding-top: 10px;
    padding-bottom: 10px;
    margin-top: 10px;
@@ -29,15 +29,12 @@ a{
     color:#ffffff;
     text-decoration: none;
 }
-a:hover{
-    color:#c0c0c0;
-}
-section{
+.main_section{
     display:flex;
     justify-content: space-around;
 }
 .spesie{
-    background-color:#ffd298c5 ;
+    background-color:#FCD7D7 ;
     padding-left:10px;
     padding-right:10px;
     margin: 5px;
@@ -48,10 +45,10 @@ section{
     overflow: hidden;
 }
 .spesie:hover{
-    height: fit-content;
+    height: 360px;
 }
 .precrasu{
-    background-color:#ffd298c5 ;
+    background-color:#FCD7D7;
     padding-left:10px;
     padding-right:10px;
     margin: 5px;
@@ -62,10 +59,10 @@ section{
     overflow: hidden;
 }
 .precrasu:hover{
-    height: fit-content;
+    height: 240px;
     }
 .posupca{
-    background-color:#ffd298c5 ;
+    background-color:#FCD7D7;
     padding-left:10px;
     padding-right:10px;
     margin: 5px;
@@ -76,10 +73,10 @@ section{
     overflow: hidden;
     }
 .posupca:hover{
-    height: fit-content;
+    height: 150px;
     }
 .pasxa{
-    background-color:#ffd298c5 ;
+    background-color:#FCD7D7;
     padding-left:10px;
     padding-right:10px;
     margin: 5px;
@@ -90,7 +87,7 @@ section{
     overflow: hidden;
 }
 .pasxa:hover{
-    height: fit-content;
+    height: 220px;
 }
 footer{
     background-color: #C64646;
@@ -102,23 +99,44 @@ footer{
 }
 ul{
     font-size:14px;
+    margin:5px;
+    color:#870202;
 }
 .footer_article{
     border:2px solid #ffffff;
-    height: 120px ;
+    height: 140px ;
     width: 200px;
     padding: 7px;
 }
 .footer_p{
     font-size: 14px;
+    color:#870202;
+}
+.footer_article{
+    border:2px solid #ffffff;
+    height: 140px ;
+    width: 250px;
+    padding: 7px;
+}
+.footer_p{
+    font-size: 14px;
+    color:#870202;
 }
 .footer2_article{
     border:2px solid #ffffff;
-    height: 80px ;
-    width: 200px;
+    height: 140px ;
+    width: 290px;
     padding: 7px;
 }
 .footer_section{
     display:flex;
     justify-content: space-around;
+}
+.a_li{
+    color:#870202;
+    text-decoration:none;
+}
+.footer_img{
+    width: 50px;
+    margin: 5px;
 }
