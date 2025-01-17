@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+}
+header{
+    background-image: url("https://img.tsn.ua/cached/825/tsn-8d1621a47e57f8d275b9b822fb9c4f13/thumbs/428x268/31/47/0f0a3006a6b942597e2aa6d254014731.jpg");
+    height: 150px;
+    width:100%;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color:#ffadad;
+    background-color:#730000a9;
+    border-radius:50px;
+    width: fit-content;
+    font-size: 30px;
+    padding: 5px;
+}
+nav{
+   display:flex;
+   justify-content: space-around;
+   background-color: #DD7373;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.a_1{
+    color:#ffffff;
+    text-decoration: none;
+}
+.osnova_sec{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.osnova_arc:hover{
+    background-color: #aa0000;
+}
+.osnova_arc{
+    width:23%;
+    background-color: #730000;
+    color:#ffffff;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+.osnova_a{
+   text-align: center;
+   margin: 3%;
+}
+.img_art{
+    height: 300px;
+    width: 280px;
+    margin: 0 auto;
+}
+.vubir_sec{
+    display: flex;
+    justify-content: space-around;
+}
+.vubir_art{
+   background-color: #ffd6d6;
+   margin: 10px;
+   padding: 5%;
+   width: 300px;
+}
+.h3_art{
+    font-size: 20px;
+    color:#000000;
+    text-decoration: none;
+}
+.p_art{
+    font-size: 15px;
+    
+}
+.osnova_a{
+    color:#ffffff;
+    text-decoration: none;
+    text-aling:center;
+}
+footer{
+    background-color: #dc7171;
+    padding: 15px;
+}
+.footer_h2{
+    font-size: 18px;
+    color:#ffffff;
+}
+ul{
+    font-size:14px;
+    margin:5px;
+    color:#870202;
+}
+.footer_article{
+    border:2px solid #ffffff;
+    height: 140px ;
+    width: 250px;
+    padding: 7px;
+}
+.footer_p{
+    font-size: 14px;
+    color:#870202;
+}
+.footer2_article{
+    border:2px solid #ffffff;
+    height: 140px ;
+    width: 290px;
+    padding: 7px;
+}
+.footer_section{
+    display:flex;
+    justify-content: space-around;
+}
+.a_li{
+    color:#870202;
+    text-decoration:none;
+}
+.footer_img{
+    width: 50px;
+    margin: 5px;
+}
