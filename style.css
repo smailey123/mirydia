@@ -1,13 +1,41 @@
 body {
     font-family: sans-serif;
+    background-color: #fff2f2;
+}
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding:0 50px 0 50px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    color:#000000;
+    background-color: #ffffff;
+}
+.img_logo{
+    height: 25px;
+    padding:10px 10px 0 0;
+}
+.logos{
+    display: flex;   
+}
+.search-container{
+    margin-right: 15px;
 }
 header{
     background-image: url("https://img.tsn.ua/cached/825/tsn-8d1621a47e57f8d275b9b822fb9c4f13/thumbs/428x268/31/47/0f0a3006a6b942597e2aa6d254014731.jpg");
-    height: 150px;
+    height: 200px;
     width:100%;
+    display:flex;
 }
 h1{
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     margin: auto;
     color:#ffadad;
     background-color:#730000a9;
@@ -18,15 +46,49 @@ h1{
 }
 nav{
    display:flex;
+   justify-content: center;
    justify-content: space-around;
+   flex-wrap: wrap;
    background-color: #DD7373;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+   padding: 10px 0 10px 0;
+   margin: 10px 0 10px 0;
+}
+.a_1, .a_, .a_2, .a_3{
+    /* border-right:2px solid #ffffff; */
+    display: flex;
+    padding: 10px 5% 10px 5%;
+    background-color: #7300005a;
+    margin: 5px;
+    border-radius: 10px;
+    color:#ffffff;
+    padding: 10px;
+    
+}
+.a_catalog_{
+    
+}
+
+
+.div-nav-a{
+    background-color: #fff0f0;
+    border-radius: 10px;
+    display: block;
+    padding: 8px;
+}
+.a_catalog_{
+    display: block;
+    color:#000000;
+    padding: 3px;
+    text-align: center;
+}
+.button_logo{
+
+}
+.search{
+    
 }
 a{
-    color:#ffffff;
+    /* color:#ffffff; */
     text-decoration: none;
 }
 .main_section{
@@ -140,3 +202,4 @@ ul{
     width: 50px;
     margin: 5px;
 }
+

@@ -1,10 +1,40 @@
 body {
     font-family: sans-serif;
+    background-color: #fff2f2;
+}
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding:0 50px 0 50px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    color:#000000;
+    background-color: #ffffff;
+}
+.img_logo{
+    height: 25px;
+    padding:10px 10px 0 0;
+}
+.logos{
+    display: flex;   
+}
+.search-container{
+    margin-right: 15px;
+}
+.logo, .cart-container{
+    text-decoration: none;
+    color: #000000;
 }
 header{
     background-image: url("https://img.tsn.ua/cached/825/tsn-8d1621a47e57f8d275b9b822fb9c4f13/thumbs/428x268/31/47/0f0a3006a6b942597e2aa6d254014731.jpg");
-    height: 150px;
+    height: 200px;
     width:100%;
+    display: flex;
 }
 h1{
     text-align: center;
@@ -17,18 +47,25 @@ h1{
     padding: 5px;
 }
 nav{
-   display:flex;
-   justify-content: space-around;
-   background-color: #DD7373;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-.a_1{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #DD7373;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+ }
+ .a_1, .a_, .a_2, .a_3{
+    /* border-right:2px solid #ffffff; */
+    display: flex;
+    padding: 10px 5% 10px 5%;
+    background-color: #7300005a;
+    margin: 5px;
+    border-radius: 10px;
     color:#ffffff;
+    padding: 10px;
     text-decoration: none;
-}
+ }
 .osnova_sec{
     display: flex;
     flex-wrap: wrap;
@@ -36,21 +73,90 @@ nav{
     justify-content: space-around;
 }
 .osnova_arc:hover{
-    background-color: #aa0000;
+    background-color: #730000;
 }
 .osnova_arc{
     width:23%;
-    background-color: #730000;
+    background-color: #aa0000;
     color:#ffffff;
-    height: 30px;
+    /* height: 30px; */
     border-radius: 40px;
     display: flex;
     justify-content: center;
 }
 .osnova_a{
+    display: flex;
    text-align: center;
+   align-items: center;
    margin: 3%;
 }
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 70px;
+    margin:20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding:20px 10px;
+    color: #ffffff;
+    width:400px;
+    background: linear-gradient(#C30000, #FFBBBB);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.items-div-img{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 10%
+}
+.item-img{
+    width: 87%;
+    height: 87%;
+    object-fit: contain;
+}
+.item-h2{
+    font-size: 25px;
+    margin:0;
+}
+.item-desc{
+    margin:0;
+    font-size: 13px;
+}
+.item-price{
+    color:#1D5825;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.item-buy{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    color: #FFBBBB;
+    padding: 12px;
+    width: fit-content;
+    font-size:20px;
+    background-color: #71c77c;
+    /* background: linear-gradient(to left , blue, red); */
+    background: linear-gradient(45deg, #b61313, #fd9292);
+    /* background: linear-gradient(#71c77c, #9198e5); */
+
+}
+
 .img_art{
     height: 300px;
     width: 280px;
@@ -78,7 +184,6 @@ nav{
 .osnova_a{
     color:#ffffff;
     text-decoration: none;
-    text-aling:center;
 }
 footer{
     background-color: #dc7171;
