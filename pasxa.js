@@ -44,7 +44,7 @@ let form_6series_durk_gold = new Product(
     1
 )
 let form_paper_childrens = new Product(
-    'https://images.prom.ua/5546955650_w640_h640_forma-dlya-vypechki.jpg',
+    'бумажная_детская_форми_6_шт.-removebg-preview.png',
     'Дитячі паперові',
     'jjj',
     1
@@ -62,13 +62,13 @@ let form_7series = new Product(
     1
 )
 let form_5series_silver_golden = new Product(
-    '',
+    'изображение_viber_2025-03-03_14-57-11-664-removebg-preview (2).png',
     'Серія 5 срібло та золото',
     'nnn',
     1
 )
 let form_bird = new Product(
-    'https://images.prom.ua/6487897341_w300_h300_paperova-forma-dlya.jpg',
+    'птахи_форми_6_шт.-removebg-preview.png',
     'Птахи',
     'mmm',
     1
@@ -86,13 +86,13 @@ let form_embroidery = new Product(
     1
 )
 let form_Angels = new Product(
-    '',
+    'янголи_форми_6_шт.-removebg-preview.png',
     'Янголи',
     'mmm',
     1
 )
 let form_Fairy_tale = new Product(
-    'https://do-smaku.com.ua/wp-content/uploads/f68aa4fb-10e6-11ea-8a5b-d24ef7e7d341-500x500-1.jpeg',
+    'сказка_форми_6_шт.-removebg-preview.png',
     'Казка',
     'mmm',
     1

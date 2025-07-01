@@ -48,10 +48,11 @@ nav{
    display:flex;
    justify-content: center;
    justify-content: space-around;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    background-color: #DD7373;
    padding: 10px 0 10px 0;
    margin: 10px 0 10px 0;
+   height: 50px;
 }
 .a_1, .a_, .a_2, .a_3{
     /* border-right:2px solid #ffffff; */
@@ -65,27 +66,20 @@ nav{
     
 }
 .a_catalog_{
-    
-}
-
-
-.div-nav-a{
-    background-color: #fff0f0;
+    background-color: #ffffff;
+    color:#000000;
     border-radius: 10px;
     display: block;
     padding: 8px;
 }
-.a_catalog_{
+.div-nav-a{
     display: block;
-    color:#000000;
     padding: 3px;
     text-align: center;
 }
-.button_logo{
+.a_catalog_{
+    margin:5px;;
 
-}
-.search{
-    
 }
 a{
     /* color:#ffffff; */
@@ -95,19 +89,13 @@ a{
     display:flex;
     justify-content: space-around;
 }
-.spesie{
-    background-color:#FCD7D7 ;
-    padding-left:10px;
-    padding-right:10px;
-    margin: 5px;
-    font-size: 10px;
-    width: 20%;
-    height: 250px;
+.div-nav{
+    height: 50px;
     transition: 0.3s;
     overflow: hidden;
 }
-.spesie:hover{
-    height: 360px;
+.div-nav:hover{
+    height:auto;
 }
 .precrasu{
     background-color:#FCD7D7;

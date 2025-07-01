@@ -5,13 +5,16 @@ let a2 = document.querySelector('.a_2')
 let a3 = document.querySelector('.a_3')
 let search = document.querySelector('.search')
 
-div_nav_a.addEventListener('mousemove', function(){
-    return`<div class="div-nav-a">
-                    <a class="a_catalog_" href="">qqqqq</a>
-                    <a class="a_catalog_" href="">wwwww </a>
-                    <a class="a_catalog_" href="">eeeee </a>
-                </div>`
-})
+// div_nav_a.addEventListener('mousemove', function(){
+//     return`<div class="div-nav">
+//                 <a class="a_" href="specie.html">Приправи</a>
+//                 <div class="div-nav-a">
+//                     <a class="a_catalog_" href="">qqqqq</a>
+//                     <a class="a_catalog_" href="">wwwww </a>
+//                     <a class="a_catalog_" href="">eeeee </a>
+//                 </div>
+//                 </div>`
+// })
 
 class Product{
     constructor(pic, name, descr, price){

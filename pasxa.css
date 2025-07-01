@@ -46,16 +46,29 @@ h1{
     font-size: 30px;
     padding: 5px;
 }
-nav{
+h1{
     display:flex;
     justify-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #DD7373;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 10px 0;
- }
- .a_1, .a_, .a_2, .a_3{
+    align-items:center;
+    margin: auto;
+    color:#ffadad;
+    background-color:#730000a9;
+    border-radius:50px;
+    width: fit-content;
+    font-size: 30px;
+    padding: 5px;
+}
+nav{
+   display:flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: nowrap;
+   background-color: #DD7373;
+   padding: 10px 0 10px 0;
+   margin: 10px 0 10px 0;
+   height: 50px;
+}
+.a_1, .a_, .a_2, .a_3{
     /* border-right:2px solid #ffffff; */
     display: flex;
     padding: 10px 5% 10px 5%;
@@ -64,8 +77,32 @@ nav{
     border-radius: 10px;
     color:#ffffff;
     padding: 10px;
-    text-decoration: none;
- }
+    
+}
+.a_catalog_{
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 10px;
+    display: block;
+    padding: 8px;
+}
+.div-nav-a{
+    display: block;
+    padding: 3px;
+    text-align: center;
+}
+.a_catalog_{
+    margin:5px;;
+
+}
+.div-nav{
+    height: 50px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.div-nav:hover{
+    height:auto;
+}
 .osnova_sec{
     display: flex;
     flex-wrap: wrap;
