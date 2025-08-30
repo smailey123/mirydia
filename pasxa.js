@@ -193,7 +193,7 @@ const cart = new Cart();
 
 function getProductCart(product){
     return `<article class="item"><div class="items-div-img"><img class="item-img" src="${product.image}"></div>
-                    <h2 class="items-h2">${product.title}</h2>
+                    <a class="items-h2">${product.title}</a>
                     <p class="item-desc">${product.description}</p>
                     <p>${product.price} грн</p>
                     <button class="item-buy">

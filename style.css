@@ -78,7 +78,7 @@ nav{
     text-align: center;
 }
 .a_catalog_{
-    margin:5px;;
+    margin:5px;
 
 }
 a{
@@ -191,3 +191,29 @@ ul{
     margin: 5px;
 }
 
+
+.main_section{
+    background: linear-gradient(#B81C1C, #D9A3A3);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    color:#ffffff;
+    flex-wrap: wrap;
+}
+
+.main_div22_goods{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main_div22_goods_div{
+    width: 470px
+}
+.main_div22_goods_div{
+    margin:5%;
+
+}
+.main_div22_goods_div2_p{
+    /* width:50%; */
+}
