@@ -302,4 +302,5 @@ function printProducts() {
     });
 }
 
+
 printProducts();
